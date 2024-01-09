@@ -13,6 +13,7 @@ class CalAdd {
 		do {
 			System.out.println("1. Add two numbers");
 			System.out.println("2. Exit");
+			// for same reason made changes here also in main to simulate merge conflict
 			System.out.print("Enter your choice: ");
 			choice = sc.next().charAt(0);
 
