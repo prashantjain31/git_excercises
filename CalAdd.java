@@ -2,6 +2,8 @@ import java.scanner.*;
 import java.lang.*;
 import java.io.*;
 
+
+// This code is used for addition of two numbers
 class CalAdd {
 	public static void main(String args[]) {
 		float a, b, res;
