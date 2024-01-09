@@ -1,5 +1,3 @@
-import java.util.*;
-import java.lang.*;
 import java.io.*;
 
 
@@ -23,7 +21,7 @@ class CalAdd {
 					System.out.print("Enter two Numbers: ");
 					a = sc.nextFloat();
 					b = sc.nextFloat();
-					res = a + b;
+					res = a + b; // asdawe4sefdryyrefewsfs
 					System.out.println("Result: " + res);
 					break;
 				case '2':
