@@ -1,7 +1,4 @@
 import java.util.*;
-import java.lang.*;
-import java.io.*;
-
 
 // This code is used for addition of two numbers
 class CalAdd {
@@ -23,16 +20,23 @@ class CalAdd {
 					System.out.print("Enter two Numbers: ");
 					a = sc.nextFloat();
 					b = sc.nextFloat();
-					res = a + b;
+					res = a + b;// res variable has sum of a and b
 					System.out.println("Result: " + res);
 					break;
 				case '2':
 					System.exit(0);
 					break;
+
+				case '3':
+					System.out.print("Enter two Numbers: ");
+					a = sc.nextFloat();
+					b = sc.nextFloat();
+					res = a - b;// res variable has diff of a and b
+					System.out.println("Result: " + res);
 				default:
 					System.out.println("Invalid Choice");
 					break;
 			}
-		} while(choice != '2');
+		} while(choice != '3');
 	}
 }
