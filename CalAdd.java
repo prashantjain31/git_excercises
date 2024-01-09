@@ -1,4 +1,4 @@
-import java.scanner.*;
+import java.util.*;
 import java.lang.*;
 import java.io.*;
 
@@ -13,7 +13,11 @@ class CalAdd {
 		do {
 			System.out.println("1. Add two numbers");
 			System.out.println("2. Exit");
+<<<<<<< HEAD
 			// for same reason made changes here also in main to simulate merge conflict
+=======
+			//Made some changes in file for some reason
+>>>>>>> feature-branch
 			System.out.print("Enter your choice: ");
 			choice = sc.next().charAt(0);
 
