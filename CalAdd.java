@@ -21,9 +21,9 @@ class CalAdd {
 			switch(choice) {
 				case '1': 
 					System.out.print("Enter two Numbers: ");
-					a = sc.nextFloat();
-					b = sc.nextFloat();
-					res = a + b;
+					a = sc.nextFloat(); //asdasdasdasdasd
+					b = sc.nextFloat(); // asdasdasdasfryhgsdv
+					res = a + b; // ffhtrysrgsgs
 					System.out.println("Result: " + res);
 					break;
 				case '2':
