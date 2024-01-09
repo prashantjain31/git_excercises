@@ -1,4 +1,4 @@
-import java.scanner.*;
+import java.util.*;
 import java.lang.*;
 import java.io.*;
 
@@ -13,6 +13,7 @@ class CalAdd {
 		do {
 			System.out.println("1. Add two numbers");
 			System.out.println("2. Exit");
+			//Made some changes in file for some reason
 			System.out.print("Enter your choice: ");
 			choice = sc.next().charAt(0);
 
