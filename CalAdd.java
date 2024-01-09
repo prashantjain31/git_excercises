@@ -21,7 +21,9 @@ class CalAdd {
 					System.out.print("Enter two Numbers: ");
 					a = sc.nextFloat();
 					b = sc.nextFloat();
-					res = a + b; // asdawe4sefdryyrefewsfs
+					a = sc.nextFloat(); //asdasdasdasdasd
+					b = sc.nextFloat(); // asdasdasdasfryhgsdv
+					res = a + b; // ffhtrysrgsgs asdawe4sefdryyrefewsfs
 					System.out.println("Result: " + res);
 					break;
 				case '2':
