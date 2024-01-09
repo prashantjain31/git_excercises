@@ -18,9 +18,9 @@ class CalAdd {
 			switch(choice) {
 				case '1': 
 					System.out.print("Enter two Numbers: ");
-					a = sc.nextFloat();
-					b = sc.nextFloat();
-					res = a + b;// res variable has sum of a and b
+					a = sc.nextFloat();// input for variable a
+					b = sc.nextFloat();//input for variable b
+					res = a + b;//result stores addition of both the variables
 					System.out.println("Result: " + res);
 					break;
 				case '2':
